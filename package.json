@@ -1,0 +1,27 @@
+{
+    "name": "interview-booking-dashboard",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "custom-react-scripts": "0.2.1",
+        "history": "^4.7.2",
+        "mobx": "^4.2.1",
+        "mobx-react": "^5.1.2",
+        "mobx-state-tree": "^2.0.5",
+        "moment": "^2.22.2",
+        "prop-types": "^15.6.2",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-resizable": "^1.7.5",
+        "react-router-dom": "^4.3.1",
+        "react-sortable-hoc": "^0.8.3",
+        "react-virtualized": "^9.20.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}

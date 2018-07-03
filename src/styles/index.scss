@@ -1,0 +1,66 @@
+@import "reset";
+
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    background-color: #202b33;
+    color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: lightskyblue;
+}
+
+
+.inner {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+
+.react-resizable {
+    position: relative;
+}
+
+.react-resizable-handle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+    background: whitesmoke;
+    box-sizing: border-box;
+    cursor: se-resize;
+}
+
+
+.ReactVirtualized__Table {
+    overflow: hidden;
+    text-align: center;
+}
+
+.ReactVirtualized__Grid {
+    outline: none;
+}
+
+.ReactVirtualized__Table__headerRow,
+.ReactVirtualized__Table__row {
+    display: flex;
+}
+
+.ReactVirtualized__Table__headerRow {
+    border: 1px solid gray;
+    line-height: 50px;
+}
+
+.ReactVirtualized__Table__rowColumn {
+    border: 1px solid gray;
+    padding: 10px;
+}
