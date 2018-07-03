@@ -15,7 +15,7 @@ class DesktopPage extends React.Component {
                 <br/>
                 <br/>
                 <p>Used modules:</p>
-                <p>For sockets: <a target="_blank" rel="noopener noreferrer" href="https://github.com/STRML/react-resizable">react-resizable</a></p>
+                <p>For table: <a target="_blank" rel="noopener noreferrer" href="https://github.com/bvaughn/react-virtualized">react-virtualized</a></p>
                 <br/>
                 <br/>
                 <Transactions />

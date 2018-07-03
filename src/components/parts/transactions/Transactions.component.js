@@ -24,6 +24,7 @@ class Transactions extends React.Component {
 
 
     render() {
+        const tableWidth = 950;
         return (
             <div>
                 <button disabled={ store.transactions.status === "started" }
@@ -42,7 +43,7 @@ class Transactions extends React.Component {
                 <br/>
 
                 <Table
-                    width={window.innerWidth}
+                    width={tableWidth}
                     height={600}
                     headerHeight={ 50 }
                     rowHeight={ 150 }
@@ -52,18 +53,18 @@ class Transactions extends React.Component {
                         headerRenderer={this.headerRenderer}
                         dataKey="from"
                         label="From"
-                        width={window.innerWidth / 7 * 3}
+                        width={tableWidth / 7 * 3}
                     />
                     <Column
                         headerRenderer={this.headerRenderer}
                         dataKey="to"
                         label="To"
-                        width={window.innerWidth / 7 * 3}
+                        width={tableWidth / 7 * 3}
                     />
                     <Column
                         dataKey="sum"
                         label="Sum"
-                        width={window.innerWidth / 7}
+                        width={tableWidth / 7}
                     />
                 </Table>
             </div>

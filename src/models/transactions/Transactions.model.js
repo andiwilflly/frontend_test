@@ -54,8 +54,8 @@ const actions = (self)=> {
                 self.create({
                     time: msg.x.time,
                     hash: msg.x.hash,
-                    from: msg.x.inputs.map((input)=> input.prev_out.addr).join(", "),
-                    to: msg.x.out.map((out)=> out.addr).join(", "),
+                    from: msg.x.inputs.map((input)=> input.prev_out.addr).join(" "),
+                    to: msg.x.out.map((out)=> out.addr).join(" "),
                     sum: (sumInputs + sumOut) / 100000000
                 });
             };
